@@ -7,7 +7,7 @@ import * as $ from 'jquery';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-role = "Head"
+  role='Head';
   constructor() { }
 
   ngOnInit(): void {

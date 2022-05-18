@@ -28,13 +28,8 @@ import { PaginationComponent } from './Components/pagination/pagination.componen
     DepartmentlistComponent,
     PaginationComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule
-    
-  ],
+  imports: [ BrowserModule,AppRoutingModule,FormsModule,HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent,FormsModule, HttpClientModule]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

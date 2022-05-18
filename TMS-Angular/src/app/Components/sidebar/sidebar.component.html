@@ -19,7 +19,7 @@
         </div>
 
         <!-- Co-Ordinator Sidebar -->
-        <div *ngIf="role=='Co-Ordinator'">
+        <div *ngIfElse="role=='Co-Ordinator'">
             <div class="navbar-nav w-100">
                 <a [routerLink]="['../Home']" class="nav-item nav-link"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
                 <a [routerLink]="['../']" class="nav-item nav-link"><i class="fa-solid fa-address-card"></i>My Profile</a>
@@ -35,7 +35,7 @@
         </div>
 
         <!-- Trainer Sidebar -->
-        <div *ngIf="role=='Trainer'">
+        <div *ngIfElse="role=='Trainer'">
             <div class="navbar-nav w-100">
                 <a [routerLink]="['../Home']" class="nav-item nav-link"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
                 <a [routerLink]="['../']" class="nav-item nav-link "><i class="fa-solid fa-address-card"></i>My Profile</a>
@@ -44,7 +44,7 @@
         </div>
 
         <!-- Trainee Sidebar -->
-        <div *ngIf="role=='Trainee'">
+        <div *ngIfElse="role=='Trainee'">
             <div class="navbar-nav w-100">
                 <a [routerLink]="['../Home']" class="nav-item nav-link"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
                 <a [routerLink]="['../']" class="nav-item nav-link"><i class="fa-solid fa-address-card"></i>My Profile</a>
@@ -55,7 +55,7 @@
         </div>
 
         <!-- Reviewer Sidebar -->
-        <div *ngIf="role=='Reviewer'">
+        <div *ngIfElse="role=='Reviewer'">
             <div class="navbar-nav w-100">
                 <a [routerLink]="['../Home']" class="nav-item nav-link"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
                 <a [routerLink]="['../']" class="nav-item nav-link"><i class="fa-solid fa-address-card"></i>My Profile</a>
