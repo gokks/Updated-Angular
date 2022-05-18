@@ -1,6 +1,6 @@
-import { Course } from "./Course";
-import { Department } from "./Department";
-import { Role } from "./Role";
+import { Course } from "./course";
+import { Department } from "./department";
+import { Role } from "./role";
 
 export interface User {
     id: number;

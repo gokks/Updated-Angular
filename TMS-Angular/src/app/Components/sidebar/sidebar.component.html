@@ -7,12 +7,12 @@
         <!-- Head Sidebar -->
         <div class="navbar-nav w-100">
             <div *ngIf="role=='Head'">
-                <a routerLink = "/Home" class="nav-item nav-link"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                <a [routerLink]="['../Home']" class="nav-item nav-link"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
                 <a [routerLink]="['../']" class="nav-item nav-link"><i class="fa fa-address-card"></i>My Profile</a>
-                <a routerLink = "/Dashboard" class="nav-item nav-link"><i class="fa fa-desktop" aria-hidden="true"></i>Dashboard</a>
-                <a routerLink = "/Userlist" class="nav-item nav-link"><i class="fa fa-user" aria-hidden="true"></i>Co-Ordinator</a>
-                <a routerLink = "/Departmentlist" class="nav-item nav-link"><i class="fa fa-book" aria-hidden="true"></i>Department</a>
-                <a routerLink = "/Userlist" class="nav-item nav-link"><i class="fa fa-male" aria-hidden="true"></i>Trainer</a>
+                <a [routerLink]="['../Dashboard']" class="nav-item nav-link"><i class="fa fa-desktop" aria-hidden="true"></i>Dashboard</a>
+                <a [routerLink]="['../Userlist']" class="nav-item nav-link"><i class="fa fa-user" aria-hidden="true"></i>Co-Ordinator</a>
+                <a [routerLink]="['../Departmentlist']" class="nav-item nav-link"><i class="fa fa-book" aria-hidden="true"></i>Department</a>
+                <a [routerLink]="['../Userlist']" class="nav-item nav-link"><i class="fa fa-male" aria-hidden="true"></i>Trainer</a>
                 <a [routerLink]="['../Userlist']" class="nav-item nav-link"><i class="fa fa-users" aria-hidden="true"></i>Trainee</a>
                 <a [routerLink]="['../Userlist']" class="nav-item nav-link"><i class="fa fa-user-md" aria-hidden="true"></i>Reviewer</a>
             </div>

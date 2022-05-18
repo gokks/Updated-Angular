@@ -1,6 +1,6 @@
-import { AttendanceStatus } from "./AttendanceStatus";
-import { Topic } from "./Topic";
-import { User } from "./User";
+import { AttendanceStatus } from "./attendanceStatus";
+import { Topic } from "./topic";
+import { User } from "./user";
 
 export interface Attendance {
     id: number;

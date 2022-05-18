@@ -1,6 +1,6 @@
 
-import { Course } from "./Course";
-import { User } from "./User";
+import { Course } from "./course";
+import { User } from "./user";
 
 export interface CourseFeedback {
     id: number;

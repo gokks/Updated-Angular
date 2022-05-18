@@ -1,8 +1,8 @@
-import { CourseStatus } from "./CourseStatus";
-import { User } from "./User";
-import { Department } from "./Department";
-import { Topic } from "./Topic";
-import { CourseFeedback } from "./CourseFeedback";
+import { CourseStatus } from "./courseStatus";
+import { User } from "./user";
+import { Department } from "./department";
+import { Topic } from "./topic";
+import { CourseFeedback } from "./courseFeedback";
 
 export interface Course {
     id: number;

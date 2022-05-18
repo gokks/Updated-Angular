@@ -1,6 +1,6 @@
-import { Course } from "./Course";
-import { Assigment } from "./Assignment";
-import { Attendance } from "./Attendance";
+import { Course } from "./course";
+import { Assigment } from "./assignments";
+import { Attendance } from "./attendance";
 
 export interface Topic {
     id: number;
