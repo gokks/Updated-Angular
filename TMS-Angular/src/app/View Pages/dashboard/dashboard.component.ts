@@ -7,7 +7,7 @@ import { DashboardService } from 'src/app/Services/dashboard.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-role = "Co-Ordinator"
+role = "Head"
 
   userdata: any;
   deptdata: any;

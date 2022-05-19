@@ -14,6 +14,16 @@ import { UserlistComponent } from './List Pages/userlist/userlist.component';
 import { DepartmentlistComponent } from './List Pages/departmentlist/departmentlist.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PaginationComponent } from './Components/pagination/pagination.component';
+import { UserProfileComponent } from './View Pages/user-profile/user-profile.component';
+import { AddCourseComponent } from './Crud Pages/add-course/add-course.component';
+import { CompletedReviewComponent } from './List Pages/completed-review/completed-review.component';
+import { CancelledReviewComponent } from './List Pages/cancelled-review/cancelled-review.component';
+import { AssignedReviewComponent } from './List Pages/assigned-review/assigned-review.component';
+import { ScheduleReviewComponent } from './Crud Pages/schedule-review/schedule-review.component';
+import { ViewMOMComponent } from './View Pages/view-mom/view-mom.component';
+import { UploadMOMComponent } from './Crud Pages/upload-mom/upload-mom.component';
+import { CourseListComponent } from './List Pages/course-list/course-list.component';
+import { TopicListComponent } from './List Pages/topic-list/topic-list.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +37,16 @@ import { PaginationComponent } from './Components/pagination/pagination.componen
     UserlistComponent,
     DepartmentlistComponent,
     PaginationComponent,
+    UserProfileComponent,
+    AddCourseComponent,
+    CompletedReviewComponent,
+    CancelledReviewComponent,
+    AssignedReviewComponent,
+    ScheduleReviewComponent,
+    ViewMOMComponent,
+    UploadMOMComponent,
+    CourseListComponent,
+    TopicListComponent,
   ],
   imports: [ BrowserModule,AppRoutingModule,FormsModule,HttpClientModule],
   providers: [],

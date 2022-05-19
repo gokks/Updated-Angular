@@ -12,8 +12,8 @@ export class UserlistComponent implements OnInit {
 
   data:any;
 
-  role = "Co-Ordinator";
-  option = "Trainee";
+  role = "Head";
+  option = "Trainer";
 
   ngOnInit(): void {
       this.getUserByRole();

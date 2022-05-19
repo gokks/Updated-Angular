@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddCourseComponent } from './Crud Pages/add-course/add-course.component';
+import { AddUserComponent } from './Crud Pages/add-user/add-user.component';
 import { DepartmentlistComponent } from './List Pages/departmentlist/departmentlist.component';
 import { UserlistComponent } from './List Pages/userlist/userlist.component';
 import { CommonhomeComponent } from './View Pages/commonhome/commonhome.component';
@@ -13,11 +15,11 @@ const routes: Routes = [
   { path: 'Home', component: UserhomeComponent },
   { path: 'Dashboard', component: DashboardComponent },
   { path: 'Userlist', component: UserlistComponent },
-  { path: 'Departmentlist', component: DepartmentlistComponent},
-  { path: 'AddDepartment', component:DepartmentlistComponent},
-  { path: 'courselist', component:UserlistComponent},
-  // { path: 'coursefeedback', component:CoursefeedbackComponent},
-  // { path: 'topiclist', component:TopiclistComponent},
+  { path: 'Departmentlist', component: DepartmentlistComponent },
+  { path: 'AddDepartment', component:DepartmentlistComponent },
+  { path: 'AddUser', component:AddUserComponent },
+  { path: 'AddCourse', component:AddCourseComponent},
+  
 ]
 
 @NgModule({
