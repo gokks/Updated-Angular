@@ -24,6 +24,7 @@ import { ViewMOMComponent } from './View Pages/view-mom/view-mom.component';
 import { UploadMOMComponent } from './Crud Pages/upload-mom/upload-mom.component';
 import { CourseListComponent } from './List Pages/course-list/course-list.component';
 import { TopicListComponent } from './List Pages/topic-list/topic-list.component';
+import { AssignCourseComponent } from './Crud Pages/assign-course/assign-course.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { TopicListComponent } from './List Pages/topic-list/topic-list.component
     UploadMOMComponent,
     CourseListComponent,
     TopicListComponent,
+    AssignCourseComponent,
   ],
   imports: [ BrowserModule,AppRoutingModule,FormsModule,HttpClientModule],
   providers: [],
